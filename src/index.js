@@ -1,5 +1,5 @@
 
-function translatePigLatin(str) {
+export function translatePigLatin(str) {
     const beginWithCons = /^([b-df-hj-np-tv-z]+)(.*)/gi
     const beginWithVowel = /^[aeiou]+/gi
 
@@ -8,7 +8,9 @@ function translatePigLatin(str) {
     }
 
     if (beginWithCons.test(str)) {
-        return str.replace(beginWithCons, "")
+        return str.replace(beginWithCons, "$2$1ay")
     }
 }
+
+
 
