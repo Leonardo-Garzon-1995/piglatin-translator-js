@@ -1,0 +1,28 @@
+{
+  "name": "piglatin-translator",
+  "version": "1.0.0",
+  "description": "A simple and extendable **Pig Latin Translator** built in JavaScript.  \r This project starts small — with a single function — and is designed to **scale up** into a fully featured open-source translation tool.",
+  "main": "index.js",
+  "type": "module",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonardo-Garzon-1995/piglatin-translator-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonardo-Garzon-1995/piglatin-translator-js/issues"
+  },
+  "homepage": "https://github.com/Leonardo-Garzon-1995/piglatin-translator-js#readme",
+  "dependencies": {
+    "chalk": "^5.6.2"
+  }
+}
